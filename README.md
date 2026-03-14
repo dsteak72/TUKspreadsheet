@@ -7,8 +7,8 @@
 
 <style>
 body{
-    background:white;
-    color:black;
+    background-color: white;
+    color: black;
 }
 
 h1{
@@ -81,7 +81,16 @@ color:black;
 a:hover{
 color:black;
 }
+    table, th, td {
+    color: black;
+}
+a {
+    color: black;
+}
 
+button {
+    color: black;
+}
 </style>
 </head>
 
