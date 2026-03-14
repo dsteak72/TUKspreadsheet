@@ -9,7 +9,7 @@
 body{
 font-family: Arial;
 background:#1e1e1e;
-color:white;
+color:black;
 padding:30px;
 }
 
