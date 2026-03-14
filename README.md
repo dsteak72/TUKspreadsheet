@@ -137,6 +137,31 @@ button{
 .authBox{
     margin-top: 60px;
 }
+    button{
+    background-color: #e0e0e0;
+    color: black;
+    border: 1px solid #888;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Edit button */
+.editBtn{
+    background-color: orange;
+    color: black;
+}
+
+/* Save button */
+.saveBtn{
+    background-color: limegreen;
+    color: black;
+}
+
+/* Remove button */
+.removeBtn{
+    background-color: crimson;
+    color: white;
+}
 </style>
 </head>
 
