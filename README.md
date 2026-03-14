@@ -47,7 +47,7 @@ background:#333;
 
 .removeBtn{
 background:crimson;
-color:black;
+color:white;
 border:none;
 }
 
