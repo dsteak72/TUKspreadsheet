@@ -8,7 +8,7 @@
 <style>
 body{
     background:white;
-    color:black;
+    color:white;
 }
 
 h1{
