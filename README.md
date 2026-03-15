@@ -30,9 +30,10 @@ input, select{
     background-color: white !important;
 }
 
-
 /* Table */
-
+    
+<input type="text" id="searchInput" placeholder="Search members..." onkeyup="searchMembers()">
+    
 table{
     width: 100%;
     border-collapse: collapse;
@@ -453,6 +454,28 @@ saveMembers()
 
 })
 
+    function searchMembers(){
+
+let input = document.getElementById("searchInput").value.toLowerCase()
+
+let table = document.getElementById("memberTable")
+
+let rows = table.getElementsByTagName("tr")
+
+for(let i = 0; i < rows.length; i++){
+
+let text = rows[i].innerText.toLowerCase()
+
+if(text.includes(input)){
+rows[i].style.display = ""
+}else{
+rows[i].style.display = "none"
+}
+
+}
+
+}
+    
 </script>
 
 </body>
